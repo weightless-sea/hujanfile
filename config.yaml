@@ -1,30 +1,24 @@
 baseurl: https://weightless-sea.github.io
-languageCode: en-us
+languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
-copyright: Example Person
+title: 我的博客
+copyright: 栖暮
 
 languages:
-    en:
-        languageName: English
-        title: Example Site11
-        weight: 1
-        params:
-            description: Example description
     zh-cn:
         languageName: 中文
-        title: 演示站点13
-        weight: 2
+        title: 里表世界
+        weight: 1
         params:
-            description: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            description: وصف تجريبي
+            description: 我的清醒梦
+
+#    en:
+#       languageName: English
+#       title: Example Site
+#       weight: 2
+#       params:
+#            description: Example description
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -34,11 +28,11 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 permalinks:
     post: /p/:slug/
@@ -49,10 +43,10 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /img/favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2023
         customText:
 
     dateFormat:
@@ -61,7 +55,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 属于栖暮的清醒梦
         avatar:
             enabled: true
             local: true
