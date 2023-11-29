@@ -192,20 +192,28 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
-
+    main:
+        []
+        
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
+        # - identifier: github
+        #   name: GitHub
+        #   url: https://github.com/CaiJimmy/hugo-theme-stack
+        #   params:
+        #       icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        # - identifier: twitter
+        #   name: Twitter
+        #   url: https://twitter.com
+        #   params:
+        #       icon: brand-twitter
+
+        - identifier: weibo
+          name: weibo
+          url: https://weibo.com
           params:
-              icon: brand-twitter
+              icon: 
+
 
 related:
     includeNewer: true
