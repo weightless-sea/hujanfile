@@ -28,5 +28,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY }}
           publish_dir: ./public
-          external_repository: weightless-sea.github.io  # 替换为你的静态文件仓库
+          external_repository: weightless-sea/weightless-sea.github.io  # 替换为你的静态文件仓库
           keep_files: false
