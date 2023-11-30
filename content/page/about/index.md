@@ -8,7 +8,7 @@ menu:
     main: 
         weight: -50
         params:
-            icon: user
+            icon: id card
 ---
 ## 介绍
 随便写写
