@@ -54,8 +54,8 @@ params:
         lastUpdated: 01月02日15点04分, 2006年
 
     sidebar:
-        emoji: 🍥
-        subtitle: 属于栖暮的清醒梦
+        emoji: 🐋
+        subtitle: 属于栖暮的清醒梦🍥
         avatar:
             enabled: true
             local: true
